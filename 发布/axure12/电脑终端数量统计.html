@@ -1,0 +1,451 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>电脑终端数量统计</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/电脑终端数量统计/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/电脑终端数量统计/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8824" class="ax_default box_1">
+        <div id="u8824_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u8825" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8826" class="ax_default label">
+        <div id="u8826_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u8827" class="text" style="visibility: visible;">
+          <p><span>查询条件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8828" class="ax_default label">
+        <div id="u8828_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u8829" class="text" style="visibility: visible;">
+          <p><span>所属地区：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u8830" class="ax_default droplist">
+        <select id="u8830_input">
+          <option selected value="地市1（树状）可多选">地市1（树状）可多选</option>
+          <option value="地市2">地市2</option>
+          <option value="地市3">地市3</option>
+          <option value="地市4">地市4</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8831" class="ax_default label">
+        <div id="u8831_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u8832" class="text" style="visibility: visible;">
+          <p><span>月份：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u8833" class="ax_default droplist">
+        <select id="u8833_input">
+          <option value="YYYY年MM月（默认为当前月）">YYYY年MM月（默认为当前月）</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8834" class="ax_default primary_button">
+        <div id="u8834_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u8835" class="text" style="visibility: visible;">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8836" class="ax_default label">
+        <div id="u8836_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u8837" class="text" style="visibility: visible;">
+          <p><span>显示行政区：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u8838" class="ax_default droplist">
+        <select id="u8838_input">
+          <option value="是（单选）">是（单选）</option>
+          <option value="否">否</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u8839" class="ax_default">
+
+        <!-- Unnamed (表格) -->
+        <div id="u8840" class="ax_default">
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8841" class="ax_default table_cell">
+            <img id="u8841_img" class="img " src="images/门店数量统计/u8754.png"/>
+            <!-- Unnamed () -->
+            <div id="u8842" class="text" style="visibility: visible;">
+              <p><span>序号</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8843" class="ax_default table_cell">
+            <img id="u8843_img" class="img " src="images/门店数量统计/u8756.png"/>
+            <!-- Unnamed () -->
+            <div id="u8844" class="text" style="visibility: visible;">
+              <p><span>区域</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8845" class="ax_default table_cell">
+            <img id="u8845_img" class="img " src="images/门店数量统计/u8758.png"/>
+            <!-- Unnamed () -->
+            <div id="u8846" class="text" style="visibility: visible;">
+              <p><span>行政区</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8847" class="ax_default table_cell">
+            <img id="u8847_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8848" class="text" style="visibility: visible;">
+              <p><span>在售</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8849" class="ax_default table_cell">
+            <img id="u8849_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8850" class="text" style="visibility: visible;">
+              <p><span>暂停</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8851" class="ax_default table_cell">
+            <img id="u8851_img" class="img " src="images/门店数量统计/u8764.png"/>
+            <!-- Unnamed () -->
+            <div id="u8852" class="text" style="visibility: visible;">
+              <p><span>小计</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8853" class="ax_default table_cell">
+            <img id="u8853_img" class="img " src="images/门店数量统计/u8754.png"/>
+            <!-- Unnamed () -->
+            <div id="u8854" class="text" style="visibility: visible;">
+              <p><span>1</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8855" class="ax_default table_cell">
+            <img id="u8855_img" class="img " src="images/门店数量统计/u8756.png"/>
+            <!-- Unnamed () -->
+            <div id="u8856" class="text" style="visibility: visible;">
+              <p><span>鹰潭市体彩中心</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8857" class="ax_default table_cell">
+            <img id="u8857_img" class="img " src="images/门店数量统计/u8758.png"/>
+            <!-- Unnamed () -->
+            <div id="u8858" class="text" style="visibility: visible;">
+              <p><span>鹰潭</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8859" class="ax_default table_cell">
+            <img id="u8859_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8860" class="text" style="visibility: visible;">
+              <p><span>2</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8861" class="ax_default table_cell">
+            <img id="u8861_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8862" class="text" style="visibility: visible;">
+              <p><span>1</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8863" class="ax_default table_cell">
+            <img id="u8863_img" class="img " src="images/门店数量统计/u8764.png"/>
+            <!-- Unnamed () -->
+            <div id="u8864" class="text" style="visibility: visible;">
+              <p><span>3</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8865" class="ax_default table_cell">
+            <img id="u8865_img" class="img " src="images/门店数量统计/u8754.png"/>
+            <!-- Unnamed () -->
+            <div id="u8866" class="text" style="visibility: visible;">
+              <p><span>2</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8867" class="ax_default table_cell">
+            <img id="u8867_img" class="img " src="images/门店数量统计/u8756.png"/>
+            <!-- Unnamed () -->
+            <div id="u8868" class="text" style="visibility: visible;">
+              <p><span>南昌市体彩中心</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8869" class="ax_default table_cell">
+            <img id="u8869_img" class="img " src="images/门店数量统计/u8758.png"/>
+            <!-- Unnamed () -->
+            <div id="u8870" class="text" style="visibility: visible;">
+              <p><span>南昌县</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8871" class="ax_default table_cell">
+            <img id="u8871_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8872" class="text" style="visibility: visible;">
+              <p><span>2</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8873" class="ax_default table_cell">
+            <img id="u8873_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8874" class="text" style="visibility: visible;">
+              <p><span>0</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8875" class="ax_default table_cell">
+            <img id="u8875_img" class="img " src="images/门店数量统计/u8764.png"/>
+            <!-- Unnamed () -->
+            <div id="u8876" class="text" style="visibility: visible;">
+              <p><span>2</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8877" class="ax_default table_cell">
+            <img id="u8877_img" class="img " src="images/门店数量统计/u8754.png"/>
+            <!-- Unnamed () -->
+            <div id="u8878" class="text" style="visibility: visible;">
+              <p><span>...</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8879" class="ax_default table_cell">
+            <img id="u8879_img" class="img " src="images/门店数量统计/u8756.png"/>
+            <!-- Unnamed () -->
+            <div id="u8880" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8881" class="ax_default table_cell">
+            <img id="u8881_img" class="img " src="images/门店数量统计/u8758.png"/>
+            <!-- Unnamed () -->
+            <div id="u8882" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8883" class="ax_default table_cell">
+            <img id="u8883_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8884" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8885" class="ax_default table_cell">
+            <img id="u8885_img" class="img " src="images/门店数量统计/u8760.png"/>
+            <!-- Unnamed () -->
+            <div id="u8886" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8887" class="ax_default table_cell">
+            <img id="u8887_img" class="img " src="images/门店数量统计/u8764.png"/>
+            <!-- Unnamed () -->
+            <div id="u8888" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8889" class="ax_default table_cell">
+            <img id="u8889_img" class="img " src="images/新建门店/u974.png"/>
+            <!-- Unnamed () -->
+            <div id="u8890" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8891" class="ax_default table_cell">
+            <img id="u8891_img" class="img " src="images/门店数量统计/u8804.png"/>
+            <!-- Unnamed () -->
+            <div id="u8892" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8893" class="ax_default table_cell">
+            <img id="u8893_img" class="img " src="images/门店数量统计/u8806.png"/>
+            <!-- Unnamed () -->
+            <div id="u8894" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8895" class="ax_default table_cell">
+            <img id="u8895_img" class="img " src="images/门店数量统计/u8808.png"/>
+            <!-- Unnamed () -->
+            <div id="u8896" class="text" style="visibility: visible;">
+              <p><span>4</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8897" class="ax_default table_cell">
+            <img id="u8897_img" class="img " src="images/门店数量统计/u8808.png"/>
+            <!-- Unnamed () -->
+            <div id="u8898" class="text" style="visibility: visible;">
+              <p><span>1</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (表格单元) -->
+          <div id="u8899" class="ax_default table_cell">
+            <img id="u8899_img" class="img " src="images/门店数量统计/u8812.png"/>
+            <!-- Unnamed () -->
+            <div id="u8900" class="text" style="visibility: visible;">
+              <p><span>5</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8901" class="ax_default box_1">
+          <div id="u8901_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u8902" class="text" style="visibility: visible;">
+            <p><span>合计（系统未合并）</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (分页) -->
+
+      <!-- Unnamed (组合) -->
+      <div id="u8904" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8905" class="ax_default label">
+          <div id="u8905_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u8906" class="text" style="visibility: visible;">
+            <p style="font-size:16px;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-size:14px;">共xx条&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 条/</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-size:14px;color:#000000;">页</span><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;color:#0000FF;">&nbsp; &nbsp; &nbsp; &lt;</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-size:14px;"> 当前页</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#000000;">xx</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#0000FF;">&nbsp; </span><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;color:#0000FF;">&gt;</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp; 前往&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 页</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u8907" class="ax_default droplist">
+          <select id="u8907_input">
+            <option value="15">15</option>
+            <option selected value="30">30</option>
+            <option value="60">60</option>
+            <option value="120">120</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (文本框(单行)) -->
+        <div id="u8908" class="ax_default text_field">
+          <input id="u8908_input" type="text" value=""/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
