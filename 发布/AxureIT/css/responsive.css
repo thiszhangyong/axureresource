@@ -1,0 +1,483 @@
+/* 
+ 
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.banner {
+   height: auto;
+   padding: 60px 0;
+} 
+
+.banner .banner-text{
+	height: auto;
+}
+.banner-form{
+	height: auto;
+
+
+}
+.banner-text img{
+	    width: 100px;
+}
+
+.banner-form .card{
+	margin-left: 0;
+}
+
+.banner .banner-text h1{
+   
+    font-size: 21px;   
+   
+}
+
+/*************************
+Social Media media quary css seciton*
+**************************/
+
+.social-media-seciton .socialicon-media-area ul li a {
+    font-size: 30px;
+   
+    padding-right: 20px;
+}
+.social-media-seciton .media-text p{
+	font-size: 17px;
+}
+
+/*************************
+feature-1 css media quaryeseciton*
+**************************/
+
+.feature-1 .feature-tab {
+	padding-left: 0;
+}
+
+.feature-1{
+    padding: 60px 0;
+
+}
+
+.item-1 h3{
+	font-size: 24px;
+}
+.item-2 h3{
+	font-size: 24px;
+}
+.item-3 h3{
+	font-size: 24px;
+}
+
+.item-1 p {
+    margin: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+.item-2 p {
+    margin: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+.item-3 p {
+    margin: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+/*************************
+feature-2 css media quary seciton*
+**************************/
+
+.feature-2 {
+       padding: 60px 0;
+}
+
+.offset-1 {
+     margin-left: 0; 
+}
+
+.feature-2 .row {
+    flex-direction: column;
+}
+.feature-2 .col-md-5{
+	max-width: 100%;
+}
+
+.feature-2 .col-md-6{
+	max-width: 100%;
+	text-align: center;
+}
+
+.feature-2 .line {
+   margin: 30px auto;
+}
+
+.feature-2 .icon-p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.feature-2 .col-md-2{
+	max-width: 100%;
+}
+.feature-2 .col-md-9{
+	max-width: 100%;
+}
+
+
+/*************************
+feature-3 css media quary seciton*
+**************************/
+.feature-3{
+       padding: 60px 0;
+}
+
+.feature-3 .line{
+	    margin: 25px auto;
+}
+
+.feature-3 .col-md-6{
+	    margin: auto;
+}
+
+/*************************
+advantage css media quary seciton*
+**************************/
+
+.advantage{
+	padding: 60px 0;
+}
+
+.advantage .row{
+	    flex-direction: column;
+}
+
+.advantage .col-md-4 {
+       max-width: 100%;
+}
+
+/*************************
+pricing css media quary seciton*
+**************************/
+.pricing {
+   padding: 60px 0;
+}
+
+.card-fotter ul li{
+	    font-size: 15px;
+}
+
+.col-md-4 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/*.pricing .priching-row {
+   flex-direction: column;
+   align-items: center;
+
+}
+.pricing .col-md-4 {
+	    padding-bottom: 40px;
+}*/
+
+/*************************
+customer-revew css media quary seciton*
+**************************/
+
+.customer-revew {
+	 padding: 60px 0;
+}
+
+.customer-revew .col-md-4 {
+	    padding: 0 0;
+}
+
+
+/*************************
+fotter-css media quary seciton*
+**************************/
+
+
+.fotter{
+	    height: 30vh;
+}
+
+/*************************
+contact css TAB media quary seciton*
+**************************/
+
+.contact{
+	 padding: 60px 0;
+}
+
+
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ 
+
+ /*************************
+banner css MOBILE media quary seciton*
+**************************/
+
+ .banner{
+ 	height: auto;
+ }
+ .banner .banner-text img {
+    width: 70px;
+}
+
+ .banner .banner-text h1{
+ 	    font-size: 20px;
+   
+ }
+
+ .banner-text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.banner .banner-text .line{
+	    margin: 25px auto;
+}
+ .banner-form .card{
+ 	    margin: 0 20px;
+ }
+ .banner .banner-text {
+    height: 50vh;
+    text-align: center;
+}
+
+ .banner-form {
+ 	height: 65vh;
+ }
+
+  /*************************
+media css MOBILE media quary seciton*
+**************************/
+
+ .social-media-seciton .media-text{
+ 	    height: 17vh;
+ }
+
+ .social-media-seciton .media-text h1{
+ 	font-size: 18px;
+ }
+
+ .social-media-seciton .media-text p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+ .social-media-seciton .socialicon-media-area ul li a {
+	font-size: 30px;
+	padding-right: 13px;
+	padding-left: 12px;
+}
+
+.socialicon-media-area {
+	height: 0;
+}
+/*************************
+feature-1 css MOBILE media quary seciton*
+**************************/
+
+
+.feature-1{
+	padding: 35px 0;
+}
+.feature-1 .feature-tab ul{
+	display: flex;
+}
+.feature-1 .feature-tab {
+     padding-left: 0; 
+}
+
+.feature-1 .feature-tab ul li {
+      height: 110px;
+    width: 130px;
+}
+
+
+.feature-1 .feature-tab .tab-1 {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-right: 2px solid white;
+}
+
+.feature-1 .feature-tab .tab-3 {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-left: 2px solid white;
+}
+
+
+.feature-1 .col-md-6{
+	    text-align: center;
+	
+}
+.feature-1 .col-md-4 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+/*************************
+feature-2 css MOBILE media quary seciton*
+**************************/
+
+.feature-2 {
+   
+     padding: 0 0; 
+}
+.feature-3 {
+   
+       padding: 40px 0 0 0;
+
+}
+
+.advantage {
+    padding: 30px 0;
+}
+
+.advantage .title {
+	font-size: 31px;
+
+}
+.advantage .col-md-4 h2{
+	font-size: 22px;
+	    padding: 20px 0;
+}
+
+.advantage  .subtitle {
+  
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+/*************************
+feature-2 css MOBILE media quary seciton*
+**************************/
+
+.pricing {
+   padding: 30px 0;
+}
+
+.title {
+   
+    font-size: 31px;
+     padding-bottom: 15px;
+   
+}
+.subtitle {
+   
+        padding-top: 15px;
+     padding-bottom: 0; 
+}
+
+.pricing .col-md-4 {
+    padding: 15px;
+}
+
+.customer-revew{
+	padding:0;
+}
+
+.customer-revew .customer-revew-text h1 {
+   
+    font-size: 31px;
+    text-transform: uppercase;
+   padding: 0 30px 15px;
+}
+.customer-revew .customer-revew-text p{
+	padding: 20px 0;
+	 margin-bottom: 0; 
+}
+.msg-box{
+	padding:0;
+	text-align: center;
+}
+.msg-box p{
+	padding:17px;
+	text-align: center;
+}
+.msg-icon p {
+    margin-top: 0;
+    
+           padding: 15px;
+}
+.User-info {
+     text-align: center; 
+     padding:0;
+}
+.col-md-3 {
+     text-align: center; 
+}
+
+.User-info .col-md-3 {
+     text-align: center; 
+}
+.customer-revew .col-md-4 {
+    padding:0;
+}
+.User-info h3{
+	text-align: center;
+	
+}
+.User-info p{
+	text-align: center;
+	    padding-bottom: 20px;
+}
+
+
+
+.img-fluid {
+     margin: 0; 
+}
+
+.fotter{
+	    margin-top: 30px;
+	    height: 50vh;
+}
+
+.fotter .fotter-content h1{
+	font-size: 31px;
+}
+.fotter .fotter-content p {
+	    font-size: 16px;
+}
+
+.contact{
+	    padding: 30px 0;
+}
+.contact-form .form-control {
+    
+    border-radius: 0;
+    margin-top: 25px;
+}
+.bottom-seciton .bottom-socialicon-media-area ul li a {
+    font-size: 30px;
+  
+    padding-right: 20px;
+}
+
+
+
+}

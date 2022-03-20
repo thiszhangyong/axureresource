@@ -1,0 +1,756 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+/*font awesoem font download here*/
+
+/*h1,h2,h3,h4,h5{
+	font-family: 'Open Sans', sans-serif;
+}*/
+/* heading nav var start herer*/
+/*===================================*/
+header{
+	width: 100%;
+	background: black;
+	 }
+.nav-link{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: white !important;
+	transition: .6se;
+
+}
+.nav-link:hover{
+	transform: scale(1.05);
+	color: grey !important;
+	transition: .6se;
+
+}
+.nav-bar{
+	padding: 1rem 1rem !important;
+	color: white;
+}
+.nav-item{
+	    padding-left: 20px;
+}
+.navbar-brand h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: white;
+    font-size: 26px;
+        padding-left: 10px;
+}
+.navbar-brand span{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #ff9b51;
+    font-size: 26px;
+}
+
+
+/********************************
+banner css start here
+**********************************/
+.banner{
+	width: 100%;
+	height: 100vh;
+	border-image-repeat: none;
+	background-image: url(../image/banner.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner .banner-text{
+    display: table-cell;
+    height: 100vh;
+    vertical-align: middle;
+    /*padding-left: 25px;*/
+}
+.banner .banner-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;   
+    margin: 25px 0;
+}
+.banner .banner-text .line{
+	width: 85px;
+	height: 3px;
+	background: white;
+ 	margin: 25px 0;
+ }
+ .banner .banner-text img{
+        width: 100px;;
+ }
+
+.banner-text p{
+	font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 16px;
+   
+    margin-bottom: 40px;
+}
+.banner-btn{
+  	height: 35px;
+    width: 90px;
+    background: transparent;
+    color: #ffff;
+    border: none;
+    border: 1px solid #ffff;
+}
+.banner-btn:hover{
+	 border: 2px solid #ffff;
+	 transform: scale(1.05);
+}
+.banner-form{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+.banner-form .card{
+	    margin-left: 100px;
+}
+.banner-form .card .card-header h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+}
+
+.banner-form .card .card-header h1 span{
+	text-transform: uppercase;
+	color: #ff8b38 !important;
+}
+.banner-form .card .card-body .form-control{
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0;
+}
+ .banner-form .card .card-body .form-control:focus{
+ 	box-shadow: none;
+}
+
+.banner-form .card .card-body .form-group{
+	    margin-bottom: 1.5rem;
+}
+
+.banner-form .card .card-body{    
+	    padding: 1.25rem 2rem;
+}
+
+.banner-form .card .card-body input::placeholder{
+	/* border-bottom: 1px solid #d6d6d6;*/
+}
+.banner-form .card .card-fotter input{
+    width: 100%;
+    height: 45px;
+    background: #ff9b51;   
+    border: none;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffff !important;
+}
+.banner-form .card .card-fotter input:hover{
+    background: #e9670b;
+    color: #d5cece !important;
+}
+/*****************************************
+ social media seciton code start here 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+ .social-media-seciton{
+ 	width: 100%;
+ 	    border: none;
+    border-bottom: 1px solid #b7b7b7;
+ 	
+ }
+.media-text {	
+ 	display: table-cell;
+    height: 20vh;
+    vertical-align: middle;
+}
+ 
+.social-media-seciton .media-text h1{
+ 	font-family: 'Raleway', sans-serif;
+ 	font-weight: 700;
+ 	font-size: 21px;
+ 	color: #333333 !important;
+ 	 line-height: 1.2;  
+ }
+ .social-media-seciton .media-text p{
+ 	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #86878b !important;
+     line-height: 1.2;  
+}
+.socialicon-media-area{
+    display: table-cell;
+    height: 20vh;
+    vertical-align: middle;
+  
+}
+.social-media-seciton .socialicon-media-area ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.social-media-seciton .socialicon-media-area ul li a{
+	font-size: 50px;
+	color: #cccccc;
+	padding-right: 40px;
+}
+/*****************************************
+ feature-1 seciton code start here 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+ .feature-1{
+ 	width: 100%;
+ 	background: #f5f5f5;
+ 	padding: 120px 0;
+ }
+ .feature-1 .feature-tab{
+ 	padding-left: 50px;
+ }
+
+   .feature-1 .feature-tab ul li{
+    list-style: none;
+    background: #333333 !important;
+    border-bottom: 1px solid white;
+    height: 112px;
+    width: 100px;
+    text-align: center;
+    line-height: 112px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #ffff !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.feature-1 .feature-tab ul li:hover{
+	background:#ff8b38 !important;
+}
+.feature-1 .feature-tab .active{
+	background: #ff8b38 !important;
+}
+
+.feature-1 .feature-tab .tab-1{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.feature-1 .feature-tab .tab-3{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ .item-1 h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.item-2 h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.item-3 h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+ .item-1 p{
+	margin: 25px 0;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+ .item-2 p{
+	margin: 25px 0;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.item-3 p{
+	margin: 25px 0;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.item-1 .feature-btn{
+    width: 120px;
+    height: 40px;
+    background: #ff8b38;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.item-2 .feature-btn{
+    width: 120px;
+    height: 40px;
+    background: green;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.item-3 .feature-btn{
+    width: 120px;
+    height: 40px;
+    background: blue;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.feature-1 .col-md-4{
+	    display: flex;
+    align-items: center;
+}
+
+/*****************************************
+ feature-2 seciton code start here 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+ .feature-2{
+	width: 100%; 
+	background: #fff;
+	padding: 120px 0;
+ }
+  .feature-2 .line{
+	width: 85px;
+	height: 3px;
+	background: #ff8b38;
+	margin: 25px 0;
+ }
+ .image-ft-3{
+ 	    text-align: center;
+ }
+
+.feature-2 h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+ .feature-2 .descrip{        
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+        padding-bottom: 20px;
+  
+}
+
+/*.bottom-padding{
+	width: 100%;
+	padding: 150px 0;*/
+}
+.socialicon-media-area-1{
+  	/*display: table-cell;
+    height: 102px;
+    vertical-align: middle;*/
+  
+}
+.feature-2 .socialicon-media-area-1 ul li{
+	list-style: none;
+    align-items: center;
+}
+.feature-2 .socialicon-media-area-1 ul li a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 51px;
+    border: 3px solid;
+    line-height: 35px;
+    text-align: center;
+    color:#ff8b38;
+}
+
+.feature-2 h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 !important;
+    font-size: 18px;
+}
+ .feature-2 .icon-p {        
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+   
+}
+
+
+ /*****************************************
+ feature-3 seciton code start here 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+ .feature-3{
+ 	width: 100%;
+ 	background: #f5f5f5;
+ 	padding: 120px 0;	
+ }
+ .feature-3 .line{
+	width: 85px;
+	height: 3px;
+	background: #ff8b38;
+	margin: 25px 0;
+ }
+ .feature-3 h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+ .feature-3 p{        
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  
+}
+/*****************************************
+ advantage seciton code start here 
+*******************************************/
+.advantage{
+	width: 100%;
+	background: white;
+	text-align: center;
+	padding: 120px 0;
+}
+.advantage .advantage-text{
+	
+	
+
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+
+   /* text-align: center;*/
+}
+.line{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+ 	width: 85px;
+    height: 3px;
+    background: #ff8b38;
+  	margin: 0 auto;
+ }
+.subtitle{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-top:  30px;
+    padding-bottom: 50px;
+}
+.advantage .col-md-4{
+	text-align: center;
+}
+.socialicon-media-area-2 ul li{
+	list-style: none;
+}
+.socialicon-media-area-2 ul li a i{ 
+	width: 80px;
+    height: 80px;
+    border-radius: 51px;
+    border: 3px solid #ff8b38;
+    line-height: 80px;
+    font-size: 40px;
+    color: #ff8b38 !important;
+}
+.advantage .col-md-4 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 40px 0;
+}
+.advantage .col-md-4 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	}
+
+/*****************************************
+ pricing seciton code start here 
+ ******************************************/
+ .pricing{
+ 	width: 100%;
+ 	background: #f5f5f5;
+ 	text-align: center;
+	padding: 120px 0;
+ }
+ .priching-row{
+ 	align-items: flex-end;
+ }
+.pricing .card .card-header{
+	background: #333333;
+	border: none;
+	border-bottom: 2px solid white;
+
+}
+.pricing .card .card-header h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+.pricing .card .card-body{
+	background: #333333;
+	border: none;
+	border-bottom: 6px solid #ff8b38;
+	
+}
+.pricing .card .card-body h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 96px;
+	color: white;
+}
+.pricing .card .card-body h1 span{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: white;
+}
+.pricing .card .card-body p{
+    font-family: 'Open Sans', sans-serif;
+ 
+    color: #999999;
+   
+    font-size: 14px;
+}
+.card-fotter ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding:0;
+}
+.card-fotter ul li{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #86878b;
+	border: none;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 10px 0;
+	}
+
+.middle .card-body{
+    padding: 0;
+    border-bottom: none !important;
+}
+
+.middle .card-body .middle-body{
+	    padding: 20px;
+}
+.middle .card-body .popular{
+	background: #ff8b38;
+	padding: 10px 0;
+}
+.popular p{	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin: 0;
+	color: white !important;
+	font-size: 16px !important;
+	text-transform: uppercase;
+}
+
+/*****************************************
+ customer review seciton code start here 
+ ****************************************/
+
+ 
+ .customer-revew .customer-revew-text{
+ 	text-align: center;
+ }
+.customer-revew  .col-md-4{
+ 	       padding: 0px 37px;
+ }
+ .customer-revew .customer-revew-text h1{
+ 	font-family: 'Raleway', sans-serif;
+ 	font-weight: 400;
+    font-size: 46px;
+   	text-transform: uppercase;
+	padding-bottom: 30px;
+ }
+ .customer-revew .customer-revew-text .line-1{
+	width: 85px;
+	height: 3px;
+	background: #ff8b38;
+	margin: 0 auto;
+ }
+ .customer-revew .customer-revew-text p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-top:  30px;
+    padding-bottom: 60px;
+}
+.customer-revew .customer-saying .customer-revew-saying{
+	padding: 0px 75px;
+}
+/*******************
+ here start 
+********************/
+.customer-revew{
+ 	width: 100%;
+ /*	background: #f5f5f5;*/
+ 	padding:120px 0;
+ 	text-align: center;
+ }
+.msg-box{
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: left;
+    border-radius: 4px;
+    
+	position: relative;
+}
+
+.msg-icon{
+width: 40px;
+height: 40px;
+background: #f6f9f6;
+position: absolute;
+bottom: -16px;
+left: 30px;
+transform: rotate(45deg);
+}
+.User-info{
+	padding-top: 30px;
+}
+
+.User-info .col-md-3{
+	    text-align: right;
+}
+.User-info .col-md-9{
+	text-align: left;
+	padding-left:0;
+}
+
+
+
+/*******************
+ here edn
+********************/
+
+
+/*****************************************
+ fotter seciton code start here 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+ .fotter{
+	width: 100%;
+	height: 60vh;
+	border-image-repeat: none;
+	background-image: url(../image/fotter.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fotter-content{
+	text-align: center;
+	
+}
+.fotter .fotter-content h1{
+	font-family: 'Raleway', sans-serif;
+ 	font-weight: 400;
+    font-size: 46px;
+    color: white;
+   	text-transform: uppercase;
+    padding-bottom: 15px;
+    padding-top: 6%;
+}
+.fotter .fotter-content .line-1{
+	width: 85px;
+    height: 2px;
+	background: #ffff;
+       margin: 0 auto;
+}
+.fotter .fotter-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	color: white;
+	font-size: 18px;
+	padding-top:  30px;
+	padding-bottom: 15px;
+}
+.fotter .fotter-content .fotter-btn{
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 1px;
+    border: 2px solid white;
+    transform: .5sc;
+}
+.fotter .fotter-content .fotter-btn:hover{
+	transform: scale(1.05);
+	transform: .5sc;
+}
+/*****************************************
+ contact seciton code start here 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+ .contact{
+ 	width: 100%;
+ 	padding:120px 0;
+ 	text-align: center;
+
+ }
+ .contact-form .form-control{
+	border-radius: 0;
+	margin-top: 45px;
+	border: none;
+	border-bottom: 1px solid;
+ }
+
+ .text-centre{
+ 	    margin: 40px auto;
+ }
+ .text-centre button{
+	height: 45px;
+	width: 150px;
+	color: white;
+	background: #ff9b51;
+	border: none;
+	border-radius: 4px;
+ }
+
+/*****************************************
+ bottom seciton code start here 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+ .bottom-seciton{
+    width: 100%;
+    background: black;
+    height: 110px;
+    align-items: center;
+ }
+
+.bottom-seciton .bottom-socialicon-media-area {
+    text-align: center;
+    margin: 10px 0;
+   
+ }
+.bottom-seciton .bottom-socialicon-media-area ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.bottom-seciton .bottom-socialicon-media-area ul li a{
+   	font-size: 35px;
+    color: #cccccc;
+    padding-right: 45px;
+      
+	}
+.bottom-seciton  p{
+	color: #6e6e6e;
+	font-size: 15px;
+	text-align: center;
+}
+
