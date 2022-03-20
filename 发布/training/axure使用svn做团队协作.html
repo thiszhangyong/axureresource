@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Axure使用SVN做团队协作</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/axure使用svn做团队协作/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/axure使用svn做团队协作/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u782" class="ax_default _文本段落">
+        <img id="u782_img" class="img " src="images/axure使用svn做团队协作/u782.png"/>
+        <!-- Unnamed () -->
+        <div id="u783" class="text" style="visibility: visible;">
+          <p style="text-align:center;"><span>【教程】用SVN实现Axure的团队协作</span></p><p style="text-align:left;"><span>目前应该不少小可爱会遇到相对复杂的项目，需要不止一个人来完成原型设计工作，这种情况下使用SVN工具可以很方便的做版本管理和整合，不用头疼零零碎碎一堆.rp文件了。</span></p><p><span>教程如下：</span></p><p><span>Step1：搭建SVN及创建项目。</span></p><p><span>搭建SVN的方法有很多，这里选用最小白易上手的一种：SVNBucket，访问网址：https://svnbucket.com/</span></p><p><span>注册后到主页，选择创建新项目，</span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p><p><span>创建好项目后会自动进入到项目详情页，此时复制右上角的项目地址，SVN的工作就完成了。</span></p><p><span>&nbsp;</span></p><p><span>Step2：创建Axure团队项目并连接SVN。</span></p><p><span>打开Axure，选择“团队-从当前文件创建团队项目”</span></p><p><span>&nbsp;</span></p><p><span>在弹窗中选择SVN，将第一步中复制的地址填入“团队目录”，命名一个项目名称（最好英文），本地目录建议不做修改，点击创建。</span></p><p><span>&nbsp;</span></p><p><span>在接下来的弹窗中，填入SVNBucket的账号信息，注意要勾选“Save Credentials”不然会报错，然后点击确定就创建成功了。</span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p><p><span>创建成功后每个页面前面会出现蓝色的小标记，代表当前页面为签入状态，如果需要编辑，需要右键进行签出。</span></p><p><span>&nbsp;</span></p><p><span>Step3：邀请同事协作编辑</span></p><p><span>创建好SVN项目后，最后一步就是邀请项目组同事加入项目了，加入项目的流程跟创建类似，首先在SVNBucket上创建一个账号，然后让项目创建者将账号添加到SVN项目中并给到管理员权限。</span></p><p><span>&nbsp;</span></p><p><span>权限设置好后，协作成员打开Axure，选择“团队-获取并打开团队项目”</span></p><p><span>&nbsp;</span></p><p><span>在弹出窗中填入项目地址，注意：此处地址与创建项目时的地址不同，多一个项目名后缀，。地址可以从SVN项目目录的项目名子目录复制。 </span></p><p><span>&nbsp;</span></p><p><span>填入后点击获取即可。</span></p><p><span><br></span></p><p><span>最后说一下签入、签出、获取变更、提交变更的区别：</span></p><p><span>在使用Axure时，团队——获取打开团队项目时，默认情况下，此文件是只读状态。</span></p><p><span>只有处于“签出”状态时才能编辑；</span></p><p><span>编辑完成后，可以点击“签入”来提交你的改动。</span></p><p><span>至于“获取变更”，其实就是类似SVN命令的Update，每次要修改原型时，先“获取变更”一次，将其他人的改动更新到本地版本，以免有冲突。</span></p><p><span>至于那个“提交变更”，则是相当于先做了一次“签入”，然后再次“签出”（这样可以在提交变更到服务器的同时，继续保持编辑状态）。</span></p><p><span>建议每次修改后签入时保持注释的习惯，这样别人才知道你到底提交了啥。从“团队”菜单下的“浏览团队项目历史记录”，可以看到所有人的修改记录。</span></p><p><span>&nbsp;</span></p><p><span><br></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
