@@ -1,0 +1,582 @@
+﻿.ax_default {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#666666;
+  text-align:center;
+  line-height:normal;
+}
+._默认样式 {
+}
+.ellipse {
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.icon {
+}
+.paragraph {
+  text-align:left;
+}
+.line {
+}
+.arrow {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.radio_button {
+  text-align:left;
+}
+.html_button {
+  text-align:center;
+}
+.sticky_1 {
+  text-align:left;
+}
+.heading_1 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.label1 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#606266;
+  text-align:left;
+}
+.shape {
+}
+.table_cell {
+  font-family:'ArialMT', 'Arial';
+  font-weight:normal;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+}
+.menu_item {
+}
+.box_1 {
+}
+.image {
+}
+.placeholder {
+}
+.button {
+}
+.el-button {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#606266;
+  text-align:center;
+}
+.el-button-primary {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+}
+.el-button-primary-plain {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#409EFF;
+  text-align:center;
+}
+.el-button-m {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#606266;
+  text-align:center;
+}
+.box_2 {
+}
+.box_3 {
+}
+.h14-black {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#333333;
+  text-align:left;
+}
+.radio-check {
+}
+.radio-uncheck {
+  color:#333333;
+}
+.radio-label-check {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#409EFF;
+  text-align:left;
+}
+.radio-label-uncheck {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#6B6B6B;
+  text-align:left;
+}
+.checkbox-check {
+}
+.checkbox-label-check {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#409EFF;
+  text-align:left;
+}
+.checkbox-uncheck {
+}
+.checkbox-label-uncheck {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#606266;
+  text-align:left;
+}
+.input-placeholder {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#C0C4CC;
+  text-align:left;
+}
+.inputed {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#606266;
+  text-align:left;
+}
+.input-textarea {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#C0C4CC;
+  text-align:left;
+}
+.tag {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#409EFF;
+  text-align:center;
+}
+.tag-success {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#67C23A;
+  text-align:center;
+}
+.tag-warning {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#E6A23C;
+  text-align:center;
+}
+.tag-info {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#606266;
+  text-align:center;
+}
+.tag-danger {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#F56C6C;
+  text-align:center;
+}
+.el-shadow {
+}
+._一级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._形状 {
+}
+._图片 {
+  color:#000000;
+}
+.checkbox {
+  text-align:left;
+}
+._形状1 {
+}
+._四级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._五级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+._六级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+._文本链接 {
+  color:#0000FF;
+}
+._鼠标悬停文本链接时 {
+}
+._鼠标按下文本链接时 {
+}
+._流程形状 {
+}
+.new_style {
+  font-family:'ArialMT', 'Arial';
+  font-weight:normal;
+  font-style:normal;
+  font-size:14px;
+  color:#2F8CFF;
+  text-align:left;
+}
+.basicbutton-embossed {
+  font-family:'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+  text-align:center;
+}
+.box_11 {
+}
+._自定义_三级菜单 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:normal;
+  font-style:normal;
+  font-size:16px;
+  color:#666666;
+  text-align:left;
+}
+._自定义_一级菜单 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+  color:#3BB19C;
+  text-align:left;
+}
+._水平线 {
+  color:#333333;
+}
+.primary-button {
+  font-family:'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:16px;
+}
+._垂直线 {
+}
+._自定义_蓝1 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_蓝2 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_蓝3 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_绿1 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_绿2 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_绿3 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_橙1 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_橙2 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_橙3 {
+  font-size:14px;
+  color:#FFFFFF;
+}
+._自定义_深蓝 {
+  font-size:14px;
+  color:#333E50;
+}
+._自定义_标题栏1 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:normal;
+  font-style:normal;
+  font-size:18px;
+  color:#3BB19C;
+  text-align:left;
+}
+._二级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+._连接线 {
+  color:#333333;
+}
+._形状2 {
+  font-size:13px;
+  color:#000000;
+}
+._文本段落 {
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+}
+._文本框 {
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+}
+._多行文本框 {
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+}
+._复选框 {
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+}
+._单选按钮 {
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+}
+._下拉列表框 {
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+}
+._下拉列表框1 {
+  color:#000000;
+  text-align:left;
+}
+._表格 {
+}
+.basicbutton {
+  font-family:'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+  text-align:center;
+}
+._形状3 {
+}
+.basicbutton-outline {
+  font-family:'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  color:#1BBC9C;
+  text-align:center;
+}
+._水平线1 {
+}
+._水平线2 {
+}
+._文本框1 {
+  color:#000000;
+  text-align:left;
+}
+._图片1 {
+  color:#000000;
+}
+._默认样式1 {
+}
+.title3 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+  color:#3BB19C;
+  text-align:left;
+}
+.basictextlabel {
+  font-family:'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:13px;
+  color:#1BBC9C;
+  text-align:center;
+}
+._分类按纽 {
+  font-size:16px;
+  text-align:left;
+  line-height:26px;
+}
+._默认样式2 {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.checkbox1 {
+  text-align:left;
+}
+._文本段落1 {
+  text-align:left;
+}
+._复选框1 {
+  text-align:left;
+}
+.link_button {
+  color:#169BD5;
+}
+.list_box {
+  color:#000000;
+  text-align:left;
+}
+.grouped-buttons {
+  font-family:'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:16px;
+}
+.tree_node {
+  text-align:left;
+}
+.basicbutton1 {
+  font-family:'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+  text-align:center;
+}
+._水平线3 {
+}
+.icon1 {
+}
+.image1 {
+}
+._一级标题1 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._文本段落2 {
+  text-align:left;
+}
+.box_21 {
+}
+.flow_shape {
+}
+.table_cell1 {
+}
+.shape1 {
+}
+.image2 {
+  color:#000000;
+}
+.iconfont {
+  font-family:'iconfont';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+  color:#666666;
+}
+.box_12 {
+}
+.box_22 {
+}
+.line1 {
+}
+.label2 {
+  font-size:14px;
+  text-align:left;
+}
+.ellipse1 {
+}
+.paragraph1 {
+  text-align:left;
+}
+.heading_11 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.line2 {
+}
+._形状4 {
+}
+.snapshot {
+}
+._文本段落3 {
+  text-align:left;
+}
