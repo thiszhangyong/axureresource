@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="�ٶȵ�ͼ,�ٶȵ�ͼAPI���ٶȵ�ͼ�Զ��幤�ߣ��ٶȵ�ͼ���������ù���" />
+    <meta name="description" content="�ٶȵ�ͼAPI�Զ�����ͼ�������û��ڿ��ӻ����������ɰٶȵ�ͼ" />
+    <title>�ٶȵ�ͼAPI�Զ�����ͼ</title>
+    <!--���ðٶȵ�ͼAPI-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=sYv8PeXs7XfuNCxwDGDxdgOFtlRCrk5b"></script>
+  </head>
+
+  <body>
+    <!--�ٶȵ�ͼ����-->
+    <div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+    <p style="color:red;font-weight:600">��ͼ���ɹ��߻��ڰٶȵ�ͼJS api v2.0�汾������ʹ���������ܳס�
+      <a href="http://developer.baidu.com/map/index.php?title=jspopular/guide/introduction" style="color:#2f83c7" target="_blank">�˽����������ܳ�</a>
+      <a href="http://lbsyun.baidu.com/apiconsole/key?application=key" style="color:#2f83c7" target="_blank">�����ܳ�</a>
+    </p>
+  </body>
+  <script type="text/javascript">
+    //�����ͳ�ʼ����ͼ������
+    function initMap(){
+      createMap();//������ͼ
+      setMapEvent();//���õ�ͼ�¼�
+      addMapControl();//����ͼ���ӿؼ�
+      addMapOverlay();//����ͼ���Ӹ�����
+    }
+    function createMap(){
+      map = new BMap.Map("map");
+      map.centerAndZoom(new BMap.Point(115.995923,28.71819),17);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+    }
+    //����ͼ���ӿؼ�
+    function addMapControl(){
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:3});
+      map.addControl(navControl);
+    }
+    var map;
+      initMap();
+  </script>
+</html>
