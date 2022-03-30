@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>订单状态机</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/订单状态机/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/订单状态机/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1722" class="ax_default box_1">
+        <div id="u1722_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1723" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1724" class="ax_default box_1">
+        <div id="u1724_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1725" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1726" class="ax_default label">
+        <div id="u1726_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1727" class="text" style="visibility: visible;">
+          <p><span>叫车需求订单状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1728" class="ax_default box_1">
+        <div id="u1728_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1729" class="text" style="visibility: visible;">
+          <p><span>开始</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1730" class="ax_default box_1">
+        <div id="u1730_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1731" class="text" style="visibility: visible;">
+          <p><span>待发布</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1732" class="ax_default _连接线">
+        <img id="u1732_seg0" class="img " src="images/订单状态机/u1732_seg0.png" alt="u1732_seg0"/>
+        <img id="u1732_seg1" class="img " src="images/订单状态机/u1732_seg1.png" alt="u1732_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1733" class="text" style="visibility: visible;">
+          <p><span>订单创建</span></p><p><span>(客户/中台/干线)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1734" class="ax_default box_1">
+        <div id="u1734_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1735" class="text" style="visibility: visible;">
+          <p><span>已发布</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1736" class="ax_default _连接线">
+        <img id="u1736_seg0" class="img " src="images/订单状态机/u1736_seg0.png" alt="u1736_seg0"/>
+        <img id="u1736_seg1" class="img " src="images/订单状态机/u1732_seg1.png" alt="u1736_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1737" class="text" style="visibility: visible;">
+          <p><span>中台发布</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1738" class="ax_default box_1">
+        <div id="u1738_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1739" class="text" style="visibility: visible;">
+          <p><span>已取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1740" class="ax_default _连接线">
+        <img id="u1740_seg0" class="img " src="images/订单状态机/u1740_seg0.png" alt="u1740_seg0"/>
+        <img id="u1740_seg1" class="img " src="images/订单状态机/u1740_seg1.png" alt="u1740_seg1"/>
+        <img id="u1740_seg2" class="img " src="images/订单状态机/u1740_seg2.png" alt="u1740_seg2"/>
+        <img id="u1740_seg3" class="img " src="images/订单状态机/u1740_seg3.png" alt="u1740_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u1741" class="text" style="visibility: visible;">
+          <p><span>订单取消</span></p><p><span>(客户/中台/干线)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1742" class="ax_default box_1">
+        <div id="u1742_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1743" class="text" style="visibility: visible;">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1744" class="ax_default _连接线">
+        <img id="u1744_seg0" class="img " src="images/订单状态机/u1744_seg0.png" alt="u1744_seg0"/>
+        <img id="u1744_seg1" class="img " src="images/订单状态机/u1732_seg1.png" alt="u1744_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1745" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1746" class="ax_default _连接线">
+        <img id="u1746_seg0" class="img " src="images/订单状态机/u1746_seg0.png" alt="u1746_seg0"/>
+        <img id="u1746_seg1" class="img " src="images/订单状态机/u1732_seg1.png" alt="u1746_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1747" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1748" class="ax_default _连接线">
+        <img id="u1748_seg0" class="img " src="images/订单状态机/u1748_seg0.png" alt="u1748_seg0"/>
+        <img id="u1748_seg1" class="img " src="images/订单状态机/u1740_seg3.png" alt="u1748_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1749" class="text" style="visibility: visible;">
+          <p><span>订单取消</span></p><p><span>(客户/中台)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1750" class="ax_default label">
+        <div id="u1750_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1751" class="text" style="visibility: visible;">
+          <p><span>调度单状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1752" class="ax_default box_1">
+        <div id="u1752_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1753" class="text" style="visibility: visible;">
+          <p><span>开始</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1754" class="ax_default box_1">
+        <div id="u1754_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1755" class="text" style="visibility: visible;">
+          <p><span>未叫车</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1756" class="ax_default _连接线">
+        <img id="u1756_seg0" class="img " src="images/订单状态机/u1756_seg0.png" alt="u1756_seg0"/>
+        <img id="u1756_seg1" class="img " src="images/订单状态机/u1732_seg1.png" alt="u1756_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1757" class="text" style="visibility: visible;">
+          <p><span>订单发布</span></p><p><span>(中台)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1758" class="ax_default box_1">
+        <div id="u1758_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1759" class="text" style="visibility: visible;">
+          <p><span>已取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1760" class="ax_default box_1">
+        <div id="u1760_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1761" class="text" style="visibility: visible;">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1762" class="ax_default _连接线">
+        <img id="u1762_seg0" class="img " src="images/订单状态机/u1736_seg0.png" alt="u1762_seg0"/>
+        <img id="u1762_seg1" class="img " src="images/订单状态机/u1732_seg1.png" alt="u1762_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1763" class="text" style="visibility: visible;">
+          <p><span>干线叫车</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1764" class="ax_default _连接线">
+        <img id="u1764_seg0" class="img " src="images/订单状态机/u1746_seg0.png" alt="u1764_seg0"/>
+        <img id="u1764_seg1" class="img " src="images/订单状态机/u1732_seg1.png" alt="u1764_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1765" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1766" class="ax_default box_1">
+        <div id="u1766_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1767" class="text" style="visibility: visible;">
+          <p><span>已叫车</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1768" class="ax_default _连接线">
+        <img id="u1768_seg0" class="img " src="images/订单状态机/u1768_seg0.png" alt="u1768_seg0"/>
+        <img id="u1768_seg1" class="img " src="images/订单状态机/u1768_seg1.png" alt="u1768_seg1"/>
+        <img id="u1768_seg2" class="img " src="images/订单状态机/u1768_seg2.png" alt="u1768_seg2"/>
+        <img id="u1768_seg3" class="img " src="images/订单状态机/u1740_seg3.png" alt="u1768_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u1769" class="text" style="visibility: visible;">
+          <p><span>订单取消</span></p><p><span>(客户/中台/干线)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1770" class="ax_default box_1">
+        <div id="u1770_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1771" class="text" style="visibility: visible;">
+          <p><span>已发车</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1772" class="ax_default _连接线">
+        <img id="u1772_seg0" class="img " src="images/订单状态机/u1772_seg0.png" alt="u1772_seg0"/>
+        <img id="u1772_seg1" class="img " src="images/业务流程/u8_seg1.png" alt="u1772_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1773" class="text" style="visibility: visible;">
+          <p><span>确认发车</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1774" class="ax_default box_1">
+        <div id="u1774_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1775" class="text" style="visibility: visible;">
+          <p><span>已送达</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1776" class="ax_default _连接线">
+        <img id="u1776_seg0" class="img " src="images/订单状态机/u1776_seg0.png" alt="u1776_seg0"/>
+        <img id="u1776_seg1" class="img " src="images/业务流程/u8_seg1.png" alt="u1776_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1777" class="text" style="visibility: visible;">
+          <p><span>确认到货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1778" class="ax_default _连接线">
+        <img id="u1778_seg0" class="img " src="images/订单状态机/u1778_seg0.png" alt="u1778_seg0"/>
+        <img id="u1778_seg1" class="img " src="images/订单状态机/u1778_seg1.png" alt="u1778_seg1"/>
+        <img id="u1778_seg2" class="img " src="images/业务流程/u36_seg1.png" alt="u1778_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u1779" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1780" class="ax_default _连接线">
+        <img id="u1780_seg0" class="img " src="images/订单状态机/u1780_seg0.png" alt="u1780_seg0"/>
+        <img id="u1780_seg1" class="img " src="images/订单状态机/u1780_seg1.png" alt="u1780_seg1"/>
+        <img id="u1780_seg2" class="img " src="images/订单状态机/u1780_seg2.png" alt="u1780_seg2"/>
+        <img id="u1780_seg3" class="img " src="images/业务流程/u28_seg1.png" alt="u1780_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u1781" class="text" style="visibility: visible;">
+          <p><span>订单取消</span></p><p><span>(中台/干线)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1782" class="ax_default _连接线">
+        <img id="u1782_seg0" class="img " src="images/订单状态机/u1782_seg0.png" alt="u1782_seg0"/>
+        <img id="u1782_seg1" class="img " src="images/订单状态机/u1740_seg3.png" alt="u1782_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u1783" class="text" style="visibility: visible;">
+          <p><span>订单取消</span></p><p><span>(中台/干线)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1784" class="ax_default box_1">
+        <div id="u1784_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1785" class="text" style="visibility: visible;">
+          <p><span>创建调度单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u1786" class="ax_default _连接线">
+        <img id="u1786_seg0" class="img " src="images/订单状态机/u1786_seg0.png" alt="u1786_seg0"/>
+        <img id="u1786_seg1" class="img " src="images/订单状态机/u1786_seg1.png" alt="u1786_seg1"/>
+        <img id="u1786_seg2" class="img " src="images/业务流程/u36_seg1.png" alt="u1786_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u1787" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
