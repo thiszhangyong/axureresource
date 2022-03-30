@@ -1,0 +1,35 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:relative;
+  left:-252px;
+  width:818px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u80 {
+  position:absolute;
+  left:252px;
+  top:126px;
+  width:818px;
+  height:572px;
+}
+#u80_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:818px;
+  height:572px;
+}
+#u80_ref {
+  position:absolute;
+  left:1062px;
+  top:688px;
+  width:1px;
+  height:1px;
+}

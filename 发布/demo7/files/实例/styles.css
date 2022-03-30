@@ -1,0 +1,154 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:relative;
+  left:-227px;
+  width:676px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u256 {
+  position:absolute;
+  left:227px;
+  top:262px;
+  width:300px;
+  height:25px;
+}
+#u256_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:25px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u256_input {
+  font-family:'微软雅黑';
+}
+#u257 {
+  position:absolute;
+  left:227px;
+  top:374px;
+  width:300px;
+  height:170px;
+}
+#u257_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:170px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u257_input {
+  font-family:'微软雅黑';
+}
+#u258 {
+  position:absolute;
+  left:591px;
+  top:264px;
+  width:300px;
+  height:22px;
+}
+#u258_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:22px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+}
+#u258_input {
+  font-family:'微软雅黑';
+}
+#u258_input:disabled {
+  color:grayText;
+}
+#u259 {
+  position:absolute;
+  left:603px;
+  top:368px;
+  width:300px;
+  height:170px;
+}
+#u259_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:170px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+}
+#u259_input {
+  font-family:'微软雅黑';
+}
+#u260 {
+  position:absolute;
+  left:310px;
+  top:123px;
+  width:100px;
+  height:16px;
+}
+#u261 {
+  position:absolute;
+  left:16px;
+  top:0px;
+  width:82px;
+  word-wrap:break-word;
+}
+#u260_input {
+  position:absolute;
+  left:-3px;
+  top:-2px;
+}
+#u262 {
+  position:absolute;
+  left:650px;
+  top:123px;
+  width:140px;
+  height:25px;
+}
+#u262_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:140px;
+  height:25px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#333333;
+  text-align:center;
+}
+#u262_input {
+  font-family:'微软雅黑';
+}
